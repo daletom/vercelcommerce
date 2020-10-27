@@ -52,7 +52,7 @@ const ProductCard: FC<Props> = ({
               height={imgHeight}
               priority={priority}
               quality="85"
-              sizes={"400px"}
+              sizes={"800px"}
             />
           </div>
         ) : (
