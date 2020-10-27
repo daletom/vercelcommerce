@@ -97,7 +97,6 @@ export default function Home({
             variant="slim"
             imgWidth={320}
             imgHeight={320}
-            sizes="413px"
           />
         ))}
       </Marquee>
@@ -131,7 +130,6 @@ export default function Home({
             variant="slim"
             imgWidth={320}
             imgHeight={320}
-            sizes="415px"
           />
         ))}
       </Marquee>
