@@ -14,7 +14,7 @@ interface Props {
   imgWidth: number | string
   imgHeight: number | string
   priority?: boolean
-  sizes: number | string
+  sizes?: string
 }
 
 const ProductCard: FC<Props> = ({
@@ -52,6 +52,7 @@ const ProductCard: FC<Props> = ({
               height={imgHeight}
               priority={priority}
               quality="85"
+              sizes={"400px"}
             />
           </div>
         ) : (
@@ -79,6 +80,7 @@ const ProductCard: FC<Props> = ({
                 height={imgHeight}
                 priority={priority}
                 quality="85"
+                sizes={"400px"}
               />
             </div>
           </>
