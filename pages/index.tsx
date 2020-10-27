@@ -85,6 +85,7 @@ export default function Home({
             imgWidth={i === 0 ? 1600 : 820}
             imgHeight={i === 0 ? 1600 : 820}
             priority
+            sizes={"400px"}
           />
         ))}
       </Grid>
