@@ -14,6 +14,7 @@ interface Props {
   imgWidth: number | string
   imgHeight: number | string
   priority?: boolean
+  sizes: number | string
 }
 
 const ProductCard: FC<Props> = ({
@@ -23,6 +24,7 @@ const ProductCard: FC<Props> = ({
   imgWidth,
   imgHeight,
   priority,
+  sizes
 }) => {
   const src = p.images.edges?.[0]?.node?.urlOriginal!
   const { price } = usePrice({
