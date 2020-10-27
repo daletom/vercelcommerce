@@ -85,6 +85,7 @@ export default function Home({
             imgWidth={i === 0 ? 1600 : 820}
             imgHeight={i === 0 ? 1600 : 820}
             priority
+            sizes="412px"
           />
         ))}
       </Grid>
@@ -96,6 +97,7 @@ export default function Home({
             variant="slim"
             imgWidth={320}
             imgHeight={320}
+            sizes="413px"
           />
         ))}
       </Marquee>
@@ -117,6 +119,7 @@ export default function Home({
             // The second image is the largest one in the grid
             imgWidth={i === 1 ? 1600 : 820}
             imgHeight={i === 1 ? 1600 : 820}
+            sizes="414px"
           />
         ))}
       </Grid>
@@ -128,6 +131,7 @@ export default function Home({
             variant="slim"
             imgWidth={320}
             imgHeight={320}
+            sizes="415px"
           />
         ))}
       </Marquee>
